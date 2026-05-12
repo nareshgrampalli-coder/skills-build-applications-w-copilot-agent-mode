@@ -5,6 +5,7 @@ import Leaderboard from './components/Leaderboard';
 import Teams from './components/Teams';
 import Users from './components/Users';
 import Workouts from './components/Workouts';
+import Footer from './components/Footer';
 import './App.css';
 
 function Home() {
@@ -151,6 +152,8 @@ function App() {
         <Route path="/leaderboard" element={<Leaderboard />} />
         <Route path="/workouts" element={<Workouts />} />
       </Routes>
+
+      <Footer />
     </div>
   );
 }
